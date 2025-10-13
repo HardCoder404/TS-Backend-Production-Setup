@@ -114,19 +114,28 @@ npm start
 ### Build Docker Image
 
 ```bash
-docker-compose build
+# development
+docker build -t backend-app:dev -f docker/development/Dockerfile .
+
+# production
+docker build -t backend-app:dev -f docker/production/Dockerfile .
+
 ```
 
-### Run with Docker Compose
+### Run Container
 
 ```bash
-docker-compose up -d
+# development
+docker run --rm -it -v ${PWD}:/usr/src/backend-app -v /usr/src/backend-app/node_modules -p 3000:3000 backend-app:dev
+
+# production
+docker run --rm -d -v ${PWD}:/usr/src/backend-app -v /usr/src/backend-app/node_modules -p 3000:3000 backend-app:dev
 ```
 
 ### Stop Containers
 
 ```bash
-docker-compose down
+ctrl+c
 ```
 
 ## 🔍 Code Quality

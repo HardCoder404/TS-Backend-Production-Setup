@@ -36,3 +36,179 @@
     "timestamp": "2025-10-13T17:48:31.843Z",
     "meta": {}
 }
+{
+    "level": "ERROR",
+    "message": "APPLICATION_ERROR",
+    "timestamp": "2025-10-13T18:18:06.838Z",
+    "meta": {
+        "message": "connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017",
+        "reason": {
+            "type": "Unknown",
+            "servers": {
+                "localhost:27017": {
+                    "address": "localhost:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 657774,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "maxMessageSizeBytes": null,
+                    "maxWriteBatchSize": null,
+                    "maxBsonObjectSize": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                }
+            },
+            "stale": false,
+            "compatible": true,
+            "heartbeatFrequencyMS": 10000,
+            "localThresholdMS": 15,
+            "setName": null,
+            "maxElectionId": null,
+            "maxSetVersion": null,
+            "commonWireVersion": 0,
+            "logicalSessionTimeoutMinutes": null
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "APPLICATION_ERROR",
+    "timestamp": "2025-10-13T18:19:50.446Z",
+    "meta": {
+        "message": "connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017",
+        "reason": {
+            "type": "Unknown",
+            "servers": {
+                "localhost:27017": {
+                    "address": "localhost:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 761323,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "maxMessageSizeBytes": null,
+                    "maxWriteBatchSize": null,
+                    "maxBsonObjectSize": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                }
+            },
+            "stale": false,
+            "compatible": true,
+            "heartbeatFrequencyMS": 10000,
+            "localThresholdMS": 15,
+            "setName": null,
+            "maxElectionId": null,
+            "maxSetVersion": null,
+            "commonWireVersion": 0,
+            "logicalSessionTimeoutMinutes": null
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "APPLICATION_ERROR",
+    "timestamp": "2025-10-13T18:23:00.490Z",
+    "meta": {
+        "message": "connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017",
+        "reason": {
+            "type": "Unknown",
+            "servers": {
+                "localhost:27017": {
+                    "address": "localhost:27017",
+                    "type": "Unknown",
+                    "hosts": [],
+                    "passives": [],
+                    "arbiters": [],
+                    "tags": {},
+                    "minWireVersion": 0,
+                    "maxWireVersion": 0,
+                    "roundTripTime": -1,
+                    "minRoundTripTime": 0,
+                    "lastUpdateTime": 951336,
+                    "lastWriteDate": 0,
+                    "error": {},
+                    "topologyVersion": null,
+                    "setName": null,
+                    "setVersion": null,
+                    "electionId": null,
+                    "logicalSessionTimeoutMinutes": null,
+                    "maxMessageSizeBytes": null,
+                    "maxWriteBatchSize": null,
+                    "maxBsonObjectSize": null,
+                    "primary": null,
+                    "me": null,
+                    "$clusterTime": null
+                }
+            },
+            "stale": false,
+            "compatible": true,
+            "heartbeatFrequencyMS": 10000,
+            "localThresholdMS": 15,
+            "setName": null,
+            "maxElectionId": null,
+            "maxSetVersion": null,
+            "commonWireVersion": 0,
+            "logicalSessionTimeoutMinutes": null
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-13T18:30:25.873Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-13T18:30:25.882Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-13T18:30:25.882Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "WARN",
+    "message": "SHUTTING DOWN SERVER...",
+    "timestamp": "2025-10-13T18:31:54.606Z",
+    "meta": {}
+}
