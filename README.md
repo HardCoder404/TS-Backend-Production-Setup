@@ -47,34 +47,34 @@ Create environment files based on your deployment environment:
 Create a `.env.development` file in the root directory:
 
 ```env
-NODE_ENV=development
+# General
+ENV=development #production
 PORT=3000
+SERVER_URL=http://localhost:3000
 
-# Database Configuration
-DATABASE_URL=postgresql://user:password@localhost:5432/dbname
+# Database
+DATABASE_URL=""
 
-# JWT Secret
-JWT_SECRET=your_jwt_secret_key
-
-# Other configurations
-API_KEY=your_api_key
+# Migration
+MIGRATE_MONGO_URI="" # Same as database url
+MIGRATE_AUTOSYNC="true" # false
 ```
 
 #### For Production:
 Create a `.env.production` file in the root directory:
 
 ```env
-NODE_ENV=production
-PORT=8080
+# General
+ENV=development #production
+PORT=3000
+SERVER_URL=http://localhost:3000
 
-# Database Configuration
-DATABASE_URL=postgresql://user:password@localhost:5432/production_db
+# Database
+DATABASE_URL=""
 
-# JWT Secret
-JWT_SECRET=your_production_jwt_secret
-
-# Other configurations
-API_KEY=your_production_api_key
+# Migration
+MIGRATE_MONGO_URI="" # Same as database url
+MIGRATE_AUTOSYNC="true" # false
 ```
 
 > ⚠️ **Important:** Never commit `.env` files to version control. They are already in `.gitignore`.
