@@ -108,10 +108,6 @@ npm start
 | `npm run format` | Format code with Prettier |
 | `npm run format:check` | Check if code is formatted correctly |
 | `npm run migrate` | Run database migrations |
-| `npm run migrate:rollback` | Rollback last migration |
-| `npm test` | Run tests |
-| `npm run test:watch` | Run tests in watch mode |
-| `npm run type-check` | Check TypeScript types |
 
 ## 🐳 Docker Deployment
 
@@ -133,54 +129,6 @@ docker-compose up -d
 docker-compose down
 ```
 
-## 📁 Project Structure
-
-```
-.
-├── .husky/              # Git hooks configuration
-├── docker/              # Docker configuration files
-├── logs/                # Application logs
-├── migrations/          # Database migrations
-├── nginx/               # Nginx configuration
-├── public/              # Static files
-├── script/              # Utility scripts
-├── src/                 # Source code
-│   ├── controllers/     # Route controllers
-│   ├── middleware/      # Express middleware
-│   ├── models/          # Database models
-│   ├── routes/          # API routes
-│   ├── services/        # Business logic
-│   ├── utils/           # Utility functions
-│   └── index.ts         # Entry point
-├── test/                # Test files
-├── .dockerignore        # Docker ignore file
-├── .env.example         # Environment variables example
-├── .gitignore           # Git ignore file
-├── .prettierrc          # Prettier configuration
-├── commitlint.config.js # Commit message linting
-├── ecosystem.config.js  # PM2 configuration
-├── eslint.config.mjs    # ESLint configuration
-├── nodemon.json         # Nodemon configuration
-├── package.json         # Dependencies and scripts
-├── package-lock.json    # Lock file
-├── README.md            # This file
-└── tsconfig.json        # TypeScript configuration
-```
-
-## 🧪 Testing
-
-Run the test suite:
-
-```bash
-npm test
-```
-
-Run tests with coverage:
-
-```bash
-npm run test:coverage
-```
-
 ## 🔍 Code Quality
 
 ### Linting
@@ -194,7 +142,7 @@ npm run lint
 Code formatting is handled by Prettier:
 
 ```bash
-npm run format
+npm run format:check
 ```
 
 ### Pre-commit Hooks
