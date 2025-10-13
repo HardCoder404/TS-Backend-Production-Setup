@@ -1,0 +1,38 @@
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-13T17:48:30.043Z",
+    "meta": {
+        "CONNECTION_NAME": "node-js-production"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-13T17:48:30.047Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-13T17:48:30.048Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "WARN",
+    "message": "SHUTTING DOWN SERVER...",
+    "timestamp": "2025-10-13T17:48:31.836Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "MongoDB connection closed.",
+    "timestamp": "2025-10-13T17:48:31.843Z",
+    "meta": {}
+}
