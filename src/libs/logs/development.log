@@ -3736,3 +3736,81 @@
         "SERVER_URL": "http://localhost:8080"
     }
 }
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T18:28:59.586Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T18:28:59.591Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T18:28:59.592Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T18:29:03.652Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T18:29:03.657Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T18:29:03.657Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T18:55:23.279Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T18:55:23.291Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T18:55:23.292Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}

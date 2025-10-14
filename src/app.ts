@@ -13,6 +13,8 @@ import cookieParser from 'cookie-parser'
 import httpError from './libs/util/helper/httpError'
 import unauthenticatedRoutes from './Routes/unauthenticatedRoutes.v1'
 import rateLimit from './middleware/rateLimit'
+import authentication from './middleware/authentication'
+import authenticatedRoutes from './Routes/authenticatedRoutes.v1'
 
 
 const app: Application = express()
@@ -44,6 +46,9 @@ app.use(
 // Routes
 app.use('/api/v1', unauthenticatedRoutes)
 app.use(rateLimit)
+app.use(authentication)
+app.use('/api/v1', authenticatedRoutes)
+
 
 
 // 404 Handler
