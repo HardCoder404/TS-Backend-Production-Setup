@@ -3447,3 +3447,188 @@
         "SERVER_URL": "http://localhost:8080"
     }
 }
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T16:16:53.854Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T16:16:53.866Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T16:16:53.866Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T16:17:20.921Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T16:17:20.925Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T16:17:20.925Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T16:18:50.492Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T16:18:50.496Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T16:18:50.497Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T16:18:52.374Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTg3MzIsImV4cCI6MTc2MDQ1OTMzMn0.6411mrQCrnkwjfkT2k_eSJ3wrcr7gRq4iEBlKxUEt7M"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T16:29:37.639Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTkzNzcsImV4cCI6MTc2MDQ1OTk3N30.NjW2CXsKtF-xvpbVGKB4VXJBWn5n8EX51UtTUqGdTzk"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T16:31:11.220Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTk0NzEsImV4cCI6MTc2MDQ2MDA3MX0.KYhTOu5uJDE-uTGt3Jb4jaYBod6Iz6cLnnc53memqgU"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T16:33:19.667Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T16:33:19.677Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T16:33:19.678Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}

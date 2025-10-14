@@ -78,20 +78,21 @@ export const UserRegister = async (input: UserRegisterDTO): Promise<ApiResponse<
 
 //  Login User
 export const UserLogin = async (input: UserLoginDTO): Promise<ApiResponse<AuthDocs>> => {
-    const { email, password, isRememberMe, username } = input
+    const { email, username, password, isRememberMe } = input
     try {
         const rememberMe = isRememberMe === 'true'
 
+        // Fetch user by email or username
         const user = await User.findOne({
-            $or: [{ email: email }, { username: username }]
+            $or: [{ email }, { username }]
         })
 
+        // User not found or wrong password → generic error
         if (!user) {
-            // User doesn't exist → generic message
             throw new ApiError(responseMessage.INVALID_CREDENTIALS('Login'), 400)
         }
 
-        // User exists but not active
+        // User exists but inactive
         if (!user.isActive) {
             throw new ApiError(responseMessage.LOGIN_RESTRICTED, 403)
         }
@@ -102,18 +103,23 @@ export const UserLogin = async (input: UserLoginDTO): Promise<ApiResponse<AuthDo
             throw new ApiError(responseMessage.INVALID_CREDENTIALS('Login'), 400)
         }
 
+        // Generate access token
         const accessToken = GenerateJwtToken(
             { userId: user._id, email: user.email },
             config.ACCESS_TOKEN.SECRET || 'default',
             config.ACCESS_TOKEN.EXPIRY || 1
         )
 
+        // Generate refresh token with dynamic expiry
         const refreshToken = GenerateJwtToken(
             { userId: user._id },
             config.REFRESH_TOKEN.SECRET || 'default',
-            rememberMe ? config.REFRESH_TOKEN.RememberExpiry || 604800 : config.REFRESH_TOKEN.EXPIRY || 86400
+            rememberMe
+                ? config.REFRESH_TOKEN.RememberExpiry || 604800 // 7 days
+                : config.REFRESH_TOKEN.EXPIRY || 86400 // 1 day
         )
 
+        // Save refresh token with expiry
         await RefreshToken.create({
             userId: user._id,
             refreshToken,
@@ -122,6 +128,7 @@ export const UserLogin = async (input: UserLoginDTO): Promise<ApiResponse<AuthDo
                 .toDate()
         })
 
+        // Prepare response
         const response: AuthDocs = {
             user: {
                 id: user.id,
