@@ -1,6 +1,5 @@
 import express, { Application, NextFunction, Request, Response } from 'express'
 import path from 'path'
-import router from './Routes/apiRouter'
 import globalErrorHandler from './middleware/globalErrorHandler'
 import responseMessage from './libs/util/constant/responseMessage'
 import helmet from 'helmet'
@@ -13,6 +12,7 @@ import config from './config/config'
 import cookieParser from 'cookie-parser'
 import httpError from './libs/util/helper/httpError'
 import unauthenticatedRoutes from './Routes/unauthenticatedRoutes.v1'
+import rateLimit from './middleware/rateLimit'
 
 
 const app: Application = express()
@@ -42,8 +42,8 @@ app.use(
 )
 
 // Routes
-app.use('/api/v1', router)
 app.use('/api/v1', unauthenticatedRoutes)
+app.use(rateLimit)
 
 
 // 404 Handler

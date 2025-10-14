@@ -10,7 +10,7 @@ import { RefreshToken } from '../../libs/database/mongoDB/model/authUser/Refresh
 import { User } from '../../libs/database/mongoDB/model/authUser/authUser'
 import { UserRegisterDTO } from '../../libs/util/DTO/auth/UserRegisterDTO'
 
-//  Register User
+// Register User
 export const UserRegister = async (input: UserRegisterDTO): Promise<ApiResponse<AuthDocs>> => {
     try {
         const { firstName, lastName, username, email, password } = input
@@ -76,7 +76,7 @@ export const UserRegister = async (input: UserRegisterDTO): Promise<ApiResponse<
     }
 }
 
-//  Login User
+// Login User
 export const UserLogin = async (input: UserLoginDTO): Promise<ApiResponse<AuthDocs>> => {
     const { email, username, password, isRememberMe } = input
     try {
