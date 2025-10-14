@@ -12,6 +12,8 @@ import { EApplicationEnvironment } from './libs/util/constant/application'
 import config from './config/config'
 import cookieParser from 'cookie-parser'
 import httpError from './libs/util/helper/httpError'
+import unauthenticatedRoutes from './Routes/unauthenticatedRoutes.v1'
+
 
 const app: Application = express()
 
@@ -41,6 +43,8 @@ app.use(
 
 // Routes
 app.use('/api/v1', router)
+app.use('/api/v1', unauthenticatedRoutes)
+
 
 // 404 Handler
 app.use((req: Request, _: Response, next: NextFunction) => {

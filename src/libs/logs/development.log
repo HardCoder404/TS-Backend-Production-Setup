@@ -212,3 +212,3238 @@
     "timestamp": "2025-10-13T18:31:54.606Z",
     "meta": {}
 }
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T14:29:32.281Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T14:29:32.287Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T14:29:32.287Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "WARN",
+    "message": "SHUTTING DOWN SERVER...",
+    "timestamp": "2025-10-14T14:30:51.283Z",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T14:30:56.527Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T14:30:56.531Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T14:30:56.532Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T14:35:34.967Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T14:35:34.981Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T14:35:34.982Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T14:35:45.588Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T14:35:45.592Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T14:35:45.593Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T14:35:50.721Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T14:35:50.725Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T14:35:50.726Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T14:36:06.886Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T14:36:06.891Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T14:36:06.891Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T14:36:11.545Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T14:36:11.552Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T14:36:11.553Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T14:36:16.280Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T14:36:16.287Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T14:36:16.288Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T14:36:40.240Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T14:36:40.244Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T14:36:40.245Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T14:37:04.612Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T14:37:04.617Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T14:37:04.617Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T14:37:08.910Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T14:37:08.916Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T14:37:08.916Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T14:38:41.583Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T14:38:44.056Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T14:38:44.057Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T14:38:58.848Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T14:38:58.852Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T14:38:58.852Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T14:39:03.671Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T14:39:03.675Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T14:39:03.676Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T14:39:23.444Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T14:39:23.539Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T14:39:23.540Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T14:39:26.220Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T14:39:26.225Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T14:39:26.225Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T14:40:58.406Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T14:40:58.428Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T14:40:58.429Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T14:43:11.866Z",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/register"
+        },
+        "message": "Not Found route",
+        "data": null,
+        "trace": {
+            "error": "Error: Not Found route\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app.ts:48:15\n    at Layer.handle [as handle_request] (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T14:43:42.853Z",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/register"
+        },
+        "message": "Not Found route",
+        "data": null,
+        "trace": {
+            "error": "Error: Not Found route\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app.ts:48:15\n    at Layer.handle [as handle_request] (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T14:46:00.365Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T14:46:00.377Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T14:46:00.378Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T14:46:17.817Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T14:46:17.821Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T14:46:17.822Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T14:46:59.637Z",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/register"
+        },
+        "message": "Hello, Prince Raj! You have been registered successfully",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6263d37f7df831b35ddd",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNjI2M2QzN2Y3ZGY4MzFiMzVkZGQiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTMyMTksImV4cCI6MTc2MDQ1MzgxOX0.cgJRGDRLuSr2Ckualhl541vegGoIIRP5E6s2JodDKVM",
+                "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNjI2M2QzN2Y3ZGY4MzFiMzVkZGQiLCJpYXQiOjE3NjA0NTMyMTksImV4cCI6MTc2MDQ5NjQxOX0.nmM-hGccpHA_M3KLQYt5xJZCs0gnX40R-clKIMXW_ZI"
+            }
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T14:47:21.916Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/register"
+        },
+        "message": "User with this email or username already exists",
+        "data": null,
+        "trace": {
+            "error": "Error: User with this email or username already exists\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:24:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T14:47:24.950Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/register"
+        },
+        "message": "User with this email or username already exists",
+        "data": null,
+        "trace": {
+            "error": "Error: User with this email or username already exists\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:24:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T14:47:30.027Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/register"
+        },
+        "message": "User with this email or username already exists",
+        "data": null,
+        "trace": {
+            "error": "Error: User with this email or username already exists\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:24:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T14:48:33.209Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Invalid credentials for Login",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid credentials for Login\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:92:39\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T14:48:43.701Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Invalid credentials for Login",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid credentials for Login\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:92:39\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T14:48:44.649Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Invalid credentials for Login",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid credentials for Login\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:92:39\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T14:48:51.263Z",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Not Found User",
+        "data": null,
+        "trace": {
+            "error": "Error: Not Found User\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:88:26\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T14:48:57.986Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Invalid credentials for Login",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid credentials for Login\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:92:39\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T14:49:29.069Z",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Not Found User",
+        "data": null,
+        "trace": {
+            "error": "Error: Not Found User\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:88:26\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T14:54:33.192Z",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Not Found User",
+        "data": null,
+        "trace": {
+            "error": "Error: Not Found User\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:88:26\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T14:54:38.427Z",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Not Found User",
+        "data": null,
+        "trace": {
+            "error": "Error: Not Found User\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:88:26\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T14:54:48.125Z",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Not Found User",
+        "data": null,
+        "trace": {
+            "error": "Error: Not Found User\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:88:26\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T14:54:57.043Z",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Not Found User",
+        "data": null,
+        "trace": {
+            "error": "Error: Not Found User\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:88:26\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T14:57:34.050Z",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Not Found User",
+        "data": null,
+        "trace": {
+            "error": "Error: Not Found User\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:88:26\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T14:58:43.255Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T14:58:43.268Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T14:58:43.268Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T14:59:14.109Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T14:59:14.114Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T14:59:14.114Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:00:19.025Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:00:19.029Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:00:19.030Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T15:00:21.467Z",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Not Found User",
+        "data": null,
+        "trace": {
+            "error": "Error: Not Found User\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:100:26\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:03:12.739Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:03:12.748Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:03:12.749Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:06:44.840Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:06:44.850Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:06:44.850Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:06:56.077Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:06:56.081Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:06:56.082Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T15:07:12.071Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Invalid credentials for Login",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid credentials for Login\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:94:39\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T15:07:36.967Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Invalid credentials for Login",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid credentials for Login\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:94:39\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T15:07:51.877Z",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Not Found User",
+        "data": null,
+        "trace": {
+            "error": "Error: Not Found User\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:90:26\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T15:07:56.740Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Invalid credentials for Login",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid credentials for Login\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:94:39\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:08:41.250Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:08:41.255Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:08:41.255Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:11:15.844Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:11:15.850Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:11:15.850Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T15:11:24.601Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Invalid credentials for Login",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid credentials for Login\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:96:39\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:12:35.879Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:12:35.884Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:12:35.885Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T15:12:39.264Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Invalid credentials for Login",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid credentials for Login\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:99:39\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:13:35.318Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:13:35.323Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:13:35.324Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T15:13:37.873Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Invalid credentials for Login",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid credentials for Login\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:99:39\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:14:05.380Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:14:05.385Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:14:05.385Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T15:14:09.362Z",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "pchstr must contain a $ as first char",
+        "data": null,
+        "trace": {
+            "error": "Error: pchstr must contain a $ as first char\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\libs\\util\\helper\\syncHelper.ts:108:15\n    at Generator.throw (<anonymous>)\n    at rejected (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\libs\\util\\helper\\syncHelper.ts:6:65)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:14:29.698Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:14:29.702Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:14:29.702Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:18:30.113Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:18:30.117Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:18:30.118Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T15:18:35.446Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Invalid credentials for Login",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid credentials for Login\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:99:39\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:19:20.498Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:19:20.502Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:19:20.503Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T15:19:22.767Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Invalid credentials for Login",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid credentials for Login\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:99:39\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:21:21.551Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:21:21.555Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:21:21.556Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:21:34.814Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:21:34.819Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:21:34.820Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:22:06.894Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:22:06.936Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:22:06.937Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:22:11.749Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:22:11.753Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:22:11.754Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T15:22:28.566Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Invalid credentials for Login",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid credentials for Login\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:99:39\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:24:55.691Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:24:55.707Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:24:55.708Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:25:06.107Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:25:06.112Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:25:06.112Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T15:28:37.937Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Invalid credentials for Login",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid credentials for Login\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:99:39\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:30:13.118Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:30:13.134Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:30:13.134Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:30:47.795Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:30:47.799Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:30:47.800Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:31:42.667Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:31:42.673Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:31:42.674Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:32:46.414Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:32:46.420Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:32:46.420Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T15:33:06.146Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Invalid credentials for Login",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid credentials for Login\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:93:39\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T15:33:45.106Z",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/register"
+        },
+        "message": "Hello, Prince Raj! You have been registered successfully",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTYwMjUsImV4cCI6MTc2MDQ1NjYyNX0.tmm2HmIHuxgkXqKWDiNmOg84Ij0vDQfPR-iG4fnQ7pM",
+                "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJpYXQiOjE3NjA0NTYwMjUsImV4cCI6MTc2MDQ5OTIyNX0.fdq0X1avMYJ3L8GSTV4sBaYzyvDF168-oogB9zNiwwA"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T15:33:59.093Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTYwMzksImV4cCI6MTc2MDQ1NjYzOX0.K1BZ80dUx6Nzbg5_lcQt47jF5pIjjEG1zdeGOFScnXI"
+            }
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T15:34:26.539Z",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Not Found User",
+        "data": null,
+        "trace": {
+            "error": "Error: Not Found User\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:89:26\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T15:34:42.728Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTYwODIsImV4cCI6MTc2MDQ1NjY4Mn0.JDGDGPOADvCqVnKsSYmJH5Tp9n535QdWo17FPHji1AE"
+            }
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T15:34:46.047Z",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Not Found User",
+        "data": null,
+        "trace": {
+            "error": "Error: Not Found User\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:89:26\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:38:59.790Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:38:59.802Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:38:59.803Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:39:10.822Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:39:10.826Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:39:10.826Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:40:46.132Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:40:46.190Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:40:46.190Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:42:25.623Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:42:25.628Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:42:25.628Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:42:32.119Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:42:32.123Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:42:32.123Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:42:56.954Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:42:56.958Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:42:56.959Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:43:08.049Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:43:08.053Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:43:08.054Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:43:28.004Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:43:28.011Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:43:28.012Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:43:40.489Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:43:40.495Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:43:40.496Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T15:44:03.552Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Invalid credentials for Login",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid credentials for Login\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:97:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T15:44:09.181Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Invalid credentials for Login",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid credentials for Login\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:97:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T15:44:14.371Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Invalid credentials for Login",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid credentials for Login\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:97:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T15:44:20.149Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTY2NjAsImV4cCI6MTc2MDQ1NzI2MH0.HHx8Nq5ZwYdpVOhtJXA4RaSR0_jaF8AkbYjrBTpWcL4"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:44:56.979Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:44:56.984Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:44:56.985Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:47:34.444Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:47:34.454Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:47:34.454Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:47:53.117Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:47:53.121Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:47:53.122Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:49:05.146Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:49:05.151Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:49:05.152Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:49:11.919Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:49:11.924Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:49:11.924Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:49:17.778Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:49:17.782Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:49:17.783Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:49:54.029Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:49:54.034Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:49:54.034Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:50:07.388Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:50:07.392Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:50:07.393Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T15:51:00.767Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTcwNjAsImV4cCI6MTc2MDQ1NzY2MH0.csk15tAsn146iY69Vc8QuugCl0HrRHCyFWfBxtzdODI"
+            }
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T15:51:32.442Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Invalid credentials for Login",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid credentials for Login\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:92:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T15:51:42.709Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTcxMDIsImV4cCI6MTc2MDQ1NzcwMn0.g2ibBnN3aifBCeQCmNXWx3LMYOXDsHosuWWjUqCgSMI"
+            }
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T15:51:46.203Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Invalid credentials for Login",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid credentials for Login\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:103:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T15:51:49.722Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTcxMDksImV4cCI6MTc2MDQ1NzcwOX0.QksOwi4YcEZ94Qf3eHkcWFKMbStNUR36gjIrQFbAEy4"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T15:53:58.652Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTcyMzgsImV4cCI6MTc2MDQ1NzgzOH0.T3n-6GtgruwWVISZmeiYXkrtKO0rsd1bxZ_s2BCQ9qM"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T15:53:59.482Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTcyMzksImV4cCI6MTc2MDQ1NzgzOX0.S8_Bueobsp4II2hNPhQWj4637LggyNyjgZ_OxT_Xb9Y"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T15:54:00.174Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTcyNDAsImV4cCI6MTc2MDQ1Nzg0MH0.oVLRg-t1RdOQXI6dMlI28aQh6Cn39C9dH7KedcVngc4"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T15:54:00.959Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTcyNDAsImV4cCI6MTc2MDQ1Nzg0MH0.oVLRg-t1RdOQXI6dMlI28aQh6Cn39C9dH7KedcVngc4"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T15:54:01.755Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTcyNDEsImV4cCI6MTc2MDQ1Nzg0MX0.iT5hP5nFu72AY8cpH8lM9yWpkA8f7l4c6rlCgMlXjJE"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T15:54:02.502Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTcyNDIsImV4cCI6MTc2MDQ1Nzg0Mn0.ei8eJMGG3j4JGlic-E8FNhKDvcDjEntf3mqGnEWIhlQ"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T15:54:03.216Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTcyNDMsImV4cCI6MTc2MDQ1Nzg0M30.dfiedE0AVOTfhwknfzfwjpV6B0Rm0xq80QJmEZYKzU4"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T15:54:03.970Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTcyNDMsImV4cCI6MTc2MDQ1Nzg0M30.dfiedE0AVOTfhwknfzfwjpV6B0Rm0xq80QJmEZYKzU4"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T15:54:04.765Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTcyNDQsImV4cCI6MTc2MDQ1Nzg0NH0.y6UnlybIOjxiHl2gtNl5TfsbB3dhghsC2iiZy3u7COM"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T15:54:05.538Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTcyNDUsImV4cCI6MTc2MDQ1Nzg0NX0._n2_FsiOh-L8tFZSNXGpZFEGlIpSkXTKCyUzylZe_Yc"
+            }
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T15:54:06.206Z",
+    "meta": {
+        "success": false,
+        "statusCode": 429,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Too many requests: please wait for some time and try again.",
+        "data": null,
+        "trace": {
+            "error": "Error: Too many requests: please wait for some time and try again.\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\rateLimit.ts:32:33\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T15:56:21.368Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTczODEsImV4cCI6MTc2MDQ1Nzk4MX0.MRFRHIDdUfDns0MpTOcM5x7gXnjZTXEhD7GGH9RtXMA"
+            }
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T15:56:29.062Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/register"
+        },
+        "message": "User with this email or username already exists",
+        "data": null,
+        "trace": {
+            "error": "Error: User with this email or username already exists\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:23:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:57:55.127Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:57:55.139Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:57:55.140Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:58:02.108Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:58:02.114Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:58:02.115Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T15:58:58.663Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T15:58:58.667Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T15:58:58.668Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T15:59:07.398Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTc1NDcsImV4cCI6MTc2MDQ1ODE0N30.7ZcINb_anJUtEAPgWbLwtT98jUYXINkmK3a6Z8qx5tU"
+            }
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-14T15:59:11.678Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Invalid credentials for Login",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid credentials for Login\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:92:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T15:59:16.840Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTc1NTYsImV4cCI6MTc2MDQ1ODE1Nn0.4SuFmjUgCaiugRXQdi3xC3GGRzAYQj8o5bt6YX6PeYI"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T15:59:27.331Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTc1NjcsImV4cCI6MTc2MDQ1ODE2N30.IYsEsjyDZA5hNkHz6gKxt3qfMhI5rbVLnKzoLEkdIKc"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-14T16:00:20.737Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA0NTc2MjAsImV4cCI6MTc2MDQ1ODIyMH0.4nw0NXPFVpSPQPgA337GFjI4NcNfyjRYeqqS6rU8DMk"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T16:01:26.024Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T16:01:26.029Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T16:01:26.030Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T16:03:14.777Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T16:03:14.781Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T16:03:14.781Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T16:03:21.253Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T16:03:21.257Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T16:03:21.258Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T16:03:31.156Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T16:03:31.161Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T16:03:31.162Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T16:04:53.003Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T16:04:53.007Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T16:04:53.008Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T16:04:57.573Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T16:04:57.577Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T16:04:57.578Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T16:05:33.623Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T16:05:33.627Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T16:05:33.628Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-14T16:12:20.759Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-14T16:12:20.772Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-14T16:12:20.773Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}

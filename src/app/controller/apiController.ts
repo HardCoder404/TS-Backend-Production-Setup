@@ -8,7 +8,7 @@ import quicker from '../../libs/util/helper/quicker'
 export default {
     self: (req: Request, res: Response, next: NextFunction) => {
         try {
-            httpResponse(req, res, 200, responseMessage.SUCCESS)
+            httpResponse(req, res, 200, responseMessage.SUCCESS('Self health data fetched'))
         } catch (err) {
             httpError(next, err, req, 500)
         }
@@ -21,7 +21,7 @@ export default {
                 timestamp: Date.now()
             }
 
-            httpResponse(req, res, 200, responseMessage.SUCCESS, healthData)
+            httpResponse(req, res, 200, responseMessage.SUCCESS('System health data fetched'), healthData)
         } catch (err) {
             httpError(next, err, req, 500)
         }

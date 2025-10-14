@@ -1,5 +1,7 @@
 export default {
     SOMETHING_WENT_WRONG: 'Something Went Wrong',
+    LOGIN_RESTRICTED: 'Login Restricted',
+    ALREADY_EXISTS_USER: 'User with this email or username already exists',
     NOT_FOUND: (entity: string) => `Not Found ${entity}`,
     TOO_MANY_REQUESTS: 'Too many requests: please wait for some time and try again.',
     PASSWORD_ENCRYPTION_ERROR: 'Error while encrypting password',
@@ -9,6 +11,7 @@ export default {
     INTERNAL_SERVER_ERROR: 'Internal Server Error',
     LOGIN: 'Login successful',
     SUCCESS: (entity: string) => `${entity} successfully`,
+    REGISTER: (entity: string) => `Hello, ${entity}! You have been registered successfully`,
     UNAUTHORIZED: 'Unauthorized Access',
     CONFIRM_PASS_NEW_PASS_NOT_MATCH: 'Confirm password does not match with new password',
     OLD_PASS_NEW_PASS_MATCH: 'Old password and new password cannot be the same',
