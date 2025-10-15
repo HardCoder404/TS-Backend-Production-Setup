@@ -153,3 +153,35 @@ export const UserLogin = async (input: UserLoginDTO): Promise<ApiResponse<AuthDo
         return { success: false, statusCode, message: errMessage, error }
     }
 }
+
+// Logout User
+export const LogoutUser = async (refreshToken: string): Promise<ApiResponse> => {
+    try {
+        if (!refreshToken) {
+            throw new ApiError(responseMessage.TOKEN_REQUIRED, 400)
+        }
+        // Find and delete refresh token
+        const tokenDoc = await RefreshToken.findOne({ refreshToken })
+        if (!tokenDoc) {
+            throw new ApiError(responseMessage.INVALID_TOKEN, 400)
+        }
+
+        await RefreshToken.deleteOne({ refreshToken })
+
+        return {
+            success: true,
+            statusCode: 200,
+            message: responseMessage.LOGOUT,
+            data: { docs: null }
+        }
+    } catch (error: any) {
+        const errMessage = error instanceof Error ? error.message : responseMessage.INTERNAL_SERVER_ERROR
+        const statusCode = error instanceof ApiError ? error.status : 500
+        return {
+            success: false,
+            statusCode,
+            message: errMessage,
+            error
+        }
+    }
+}

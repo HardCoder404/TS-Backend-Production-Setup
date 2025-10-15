@@ -29,5 +29,23 @@ const authentication = async (request: Request, response: Response, next: NextFu
     }
 }
 
+export const resetPasswordTokenVerifier = async (request: Request, _: Response, next: NextFunction) => {
+    try {
+        const req = request as IAuthenticatedRequest
+        const token = req.query.token as string | undefined
+
+        if (token) {
+            const { userId } = VerifyToken(token, config.RESET_PASSWORD_TOKEN.SECRET as string) as IDecryptedJwt
+            if (userId) {
+                req.userId = userId
+            }
+            return next()
+        }
+        return httpError(next, new Error(responseMessage.TOKEN_EXPIRED), req, 401)
+    } catch (error) {
+        return httpError(next, error, request, 401)
+    }
+}
+
 
 export default authentication

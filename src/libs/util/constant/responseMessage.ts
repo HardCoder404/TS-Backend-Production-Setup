@@ -28,5 +28,8 @@ export default {
     FORBIDDEN_PERMISSION: 'Forbidden: You do not have the required permission',
     BAD_REQUEST: (message: string) => `Bad Request: ${message}`,
     EMAIL_FIELD_UPDATE_RESTRICTED: 'Email field cannot be updated',
-    PHONE_FIELD_UPDATE_RESTRICTED: 'Phone field cannot be updated'
+    PHONE_FIELD_UPDATE_RESTRICTED: 'Phone field cannot be updated',
+    TOKEN_REQUIRED: 'Refresh token is required for logout.',
+    INVALID_TOKEN: 'Invalid or expired refresh token.',
+
 } as const

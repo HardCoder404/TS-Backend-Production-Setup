@@ -3814,3 +3814,1302 @@
         "SERVER_URL": "http://localhost:8080"
     }
 }
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-15T13:13:55.405Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-15T13:13:55.410Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-15T13:13:55.411Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-15T13:13:58.719Z",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/logout"
+        },
+        "message": "Unauthorized Access",
+        "data": null,
+        "trace": {
+            "error": "Error: Unauthorized Access\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\authentication.ts:26:32\n    at Generator.next (<anonymous>)\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\authentication.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\authentication.ts:4:12)\n    at authentication (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\authentication.ts:9:91)\n    at Layer.handle [as handle_request] (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:346:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T13:14:13.978Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA1MzQwNTMsImV4cCI6MTc2MDUzNDY1M30.nLbtQtv8OeyjfxFsEkFuQ-I_dRxKnEyY-mQZ-7z-bwI"
+            }
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-15T13:14:20.103Z",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/logout"
+        },
+        "message": "Not Found route",
+        "data": null,
+        "trace": {
+            "error": "Error: Not Found route\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app.ts:57:15\n    at Layer.handle [as handle_request] (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at Immediate.next (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Immediate._onImmediate (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:646:15)\n    at processImmediate (node:internal/timers:487:21)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-15T13:16:06.793Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-15T13:16:06.797Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-15T13:16:06.798Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-15T13:16:10.252Z",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/logout"
+        },
+        "message": "Not Found route",
+        "data": null,
+        "trace": {
+            "error": "Error: Not Found route\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app.ts:57:15\n    at Layer.handle [as handle_request] (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at Immediate.next (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Immediate._onImmediate (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:646:15)\n    at processImmediate (node:internal/timers:487:21)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-15T13:16:11.343Z",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/logout"
+        },
+        "message": "Not Found route",
+        "data": null,
+        "trace": {
+            "error": "Error: Not Found route\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app.ts:57:15\n    at Layer.handle [as handle_request] (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at Immediate.next (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Immediate._onImmediate (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:646:15)\n    at processImmediate (node:internal/timers:487:21)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-15T13:16:12.181Z",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/logout"
+        },
+        "message": "Not Found route",
+        "data": null,
+        "trace": {
+            "error": "Error: Not Found route\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app.ts:57:15\n    at Layer.handle [as handle_request] (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at Immediate.next (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Immediate._onImmediate (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:646:15)\n    at processImmediate (node:internal/timers:487:21)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T13:16:21.332Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA1MzQxODEsImV4cCI6MTc2MDUzNDc4MX0.i1qJPHCZikrKlrijkbBZKKBnHGc11MYpst5b4VLJDCY"
+            }
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-15T13:16:25.368Z",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/logout"
+        },
+        "message": "Not Found route",
+        "data": null,
+        "trace": {
+            "error": "Error: Not Found route\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app.ts:57:15\n    at Layer.handle [as handle_request] (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at Immediate.next (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Immediate._onImmediate (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\index.js:646:15)\n    at processImmediate (node:internal/timers:487:21)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-15T13:18:11.477Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-15T13:18:11.491Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-15T13:18:11.492Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-15T13:19:17.840Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-15T13:19:17.850Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-15T13:19:17.851Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-15T13:19:51.537Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-15T13:19:51.541Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-15T13:19:51.541Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-15T13:20:05.830Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-15T13:20:05.834Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-15T13:20:05.835Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-15T13:20:30.323Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-15T13:20:30.329Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-15T13:20:30.330Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-15T13:21:01.185Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-15T13:21:01.189Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-15T13:21:01.190Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T13:21:08.701Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA1MzQ0NjgsImV4cCI6MTc2MDUzNTA2OH0.Eib1jbn1rjQ36LEpxO2yh5zBfiMauypv70eo6Uu_IgE"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T13:21:10.138Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA1MzQ0NzAsImV4cCI6MTc2MDUzNTA3MH0.waBPu1v-oDmALOGF5PmhqZujyFXAakmkAVJ7wRnjbWA"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T13:21:11.083Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA1MzQ0NzEsImV4cCI6MTc2MDUzNTA3MX0.UwxN81CdWU7BDgYx07ph67-ci-ldwHZnjCif-ntqgkA"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T13:21:57.778Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "PUT",
+            "url": "/api/v1/auth/logout"
+        },
+        "message": "Logout successful",
+        "data": {
+            "docs": null
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T13:22:00.079Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "PUT",
+            "url": "/api/v1/auth/logout"
+        },
+        "message": "Logout successful",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T13:22:00.969Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "PUT",
+            "url": "/api/v1/auth/logout"
+        },
+        "message": "Logout successful",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T13:22:01.642Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "PUT",
+            "url": "/api/v1/auth/logout"
+        },
+        "message": "Logout successful",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T13:22:01.976Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "PUT",
+            "url": "/api/v1/auth/logout"
+        },
+        "message": "Logout successful",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T13:22:02.144Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "PUT",
+            "url": "/api/v1/auth/logout"
+        },
+        "message": "Logout successful",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T13:22:02.313Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "PUT",
+            "url": "/api/v1/auth/logout"
+        },
+        "message": "Logout successful",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-15T13:22:02.465Z",
+    "meta": {
+        "success": false,
+        "statusCode": 429,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "PUT",
+            "url": "/api/v1/auth/logout"
+        },
+        "message": "Too many requests: please wait for some time and try again.",
+        "data": null,
+        "trace": {
+            "error": "Error: Too many requests: please wait for some time and try again.\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\rateLimit.ts:32:33\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-15T13:22:02.683Z",
+    "meta": {
+        "success": false,
+        "statusCode": 429,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "PUT",
+            "url": "/api/v1/auth/logout"
+        },
+        "message": "Too many requests: please wait for some time and try again.",
+        "data": null,
+        "trace": {
+            "error": "Error: Too many requests: please wait for some time and try again.\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\rateLimit.ts:32:33\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-15T13:22:05.949Z",
+    "meta": {
+        "success": false,
+        "statusCode": 429,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Too many requests: please wait for some time and try again.",
+        "data": null,
+        "trace": {
+            "error": "Error: Too many requests: please wait for some time and try again.\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\rateLimit.ts:32:33\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T13:22:09.319Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA1MzQ1MjksImV4cCI6MTc2MDUzNTEyOX0.RrDzKc2CcwR4Nym5NB11fCvUfBse0NRbj3fNki0rNoM"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T13:22:12.659Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "PUT",
+            "url": "/api/v1/auth/logout"
+        },
+        "message": "Logout successful",
+        "data": {
+            "docs": null
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T13:22:16.182Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA1MzQ1MzYsImV4cCI6MTc2MDUzNTEzNn0.69tsEaNhM_Vkomsi2uQ_ubHL03D7UvUHA7ptYtNZ_Pw"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T13:22:18.386Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "PUT",
+            "url": "/api/v1/auth/logout"
+        },
+        "message": "Logout successful",
+        "data": {
+            "docs": null
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T13:22:36.522Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA1MzQ1NTYsImV4cCI6MTc2MDUzNTE1Nn0.gD2IZcxydoUKXEQfnoQ86GUTRiWD_Ha0gm1WaWWmNFE"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T13:22:42.612Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "PUT",
+            "url": "/api/v1/auth/logout"
+        },
+        "message": "Logout successful",
+        "data": {
+            "docs": null
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-15T13:25:05.310Z",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/pass/change"
+        },
+        "message": "Unauthorized Access",
+        "data": null,
+        "trace": {
+            "error": "Error: Unauthorized Access\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\authentication.ts:26:32\n    at Generator.next (<anonymous>)\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\authentication.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\authentication.ts:4:12)\n    at authentication (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\authentication.ts:9:91)\n    at Layer.handle [as handle_request] (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\layer.js:95:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-15T13:26:16.341Z",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/pass/change"
+        },
+        "message": "Unauthorized Access",
+        "data": null,
+        "trace": {
+            "error": "Error: Unauthorized Access\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\authentication.ts:26:32\n    at Generator.next (<anonymous>)\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\authentication.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\authentication.ts:4:12)\n    at authentication (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\authentication.ts:9:91)\n    at Layer.handle [as handle_request] (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\layer.js:95:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T13:26:22.363Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA1MzQ3ODIsImV4cCI6MTc2MDUzNTM4Mn0.X8ULY-6r5Rhv29XbHR-I3XYUCMOjAGhMjebno-OWElg"
+            }
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-15T13:27:06.380Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/pass/change"
+        },
+        "message": "Confirm password does not match with new password",
+        "data": null,
+        "trace": {
+            "error": "Error: Confirm password does not match with new password\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\password.controller.ts:21:19\n    at Generator.next (<anonymous>)\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\password.controller.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\password.controller.ts:4:12)\n    at ChangePassword (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\password.controller.ts:15:108)\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\Router\\public\\password.routes.ts:28:83\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\Router\\public\\password.routes.ts:28:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-15T13:27:11.496Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/pass/change"
+        },
+        "message": "Old password does not match",
+        "data": null,
+        "trace": {
+            "error": "Error: Old password does not match\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\password.controller.ts:38:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\password.controller.ts:5:58)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-15T13:27:20.406Z",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/pass/change"
+        },
+        "message": "getaddrinfo ENOTFOUND email.aws-region.amazonaws.com",
+        "data": null,
+        "trace": {
+            "error": "Error: getaddrinfo ENOTFOUND email.aws-region.amazonaws.com\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\password.controller.ts:60:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\password.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-15T13:27:31.047Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/pass/change"
+        },
+        "message": "Old password does not match",
+        "data": null,
+        "trace": {
+            "error": "Error: Old password does not match\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\password.controller.ts:38:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\password.controller.ts:5:58)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-15T13:27:35.744Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/pass/change"
+        },
+        "message": "Old password does not match",
+        "data": null,
+        "trace": {
+            "error": "Error: Old password does not match\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\password.controller.ts:38:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\password.controller.ts:5:58)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-15T13:42:56.970Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-15T13:42:56.983Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-15T13:42:56.983Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-15T13:43:02.228Z",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/pass/change"
+        },
+        "message": "Unauthorized Access",
+        "data": null,
+        "trace": {
+            "error": "Error: Unauthorized Access\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\authentication.ts:26:32\n    at Generator.next (<anonymous>)\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\authentication.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\authentication.ts:4:12)\n    at authentication (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\authentication.ts:9:91)\n    at Layer.handle [as handle_request] (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\layer.js:95:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T13:43:06.322Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "PUT",
+            "url": "/api/v1/auth/logout"
+        },
+        "message": "Logout successful",
+        "data": {
+            "docs": null
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-15T13:43:09.607Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Invalid credentials for Login",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid credentials for Login\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:103:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-15T13:43:12.117Z",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/pass/change"
+        },
+        "message": "Unauthorized Access",
+        "data": null,
+        "trace": {
+            "error": "Error: Unauthorized Access\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\authentication.ts:26:32\n    at Generator.next (<anonymous>)\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\authentication.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\authentication.ts:4:12)\n    at authentication (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\authentication.ts:9:91)\n    at Layer.handle [as handle_request] (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\layer.js:95:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-15T13:43:13.346Z",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/pass/change"
+        },
+        "message": "Unauthorized Access",
+        "data": null,
+        "trace": {
+            "error": "Error: Unauthorized Access\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\authentication.ts:26:32\n    at Generator.next (<anonymous>)\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\authentication.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\authentication.ts:4:12)\n    at authentication (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\middleware\\authentication.ts:9:91)\n    at Layer.handle [as handle_request] (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\node_modules\\express\\lib\\router\\layer.js:95:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-15T13:43:23.965Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Invalid credentials for Login",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid credentials for Login\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:103:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\auth.controller.ts:5:58)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T13:43:44.574Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/auth/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "username": "prince1024b",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJlbWFpbCI6ImFiY0BnbWFpbC5jb20iLCJpYXQiOjE3NjA1MzU4MjQsImV4cCI6MTc2MDUzNjQyNH0.Yn-Z9u-3Ccr9GhNu0Viw3HMaJE1pMHGwSkgRXqGfCRg"
+            }
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-15T13:43:49.662Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/pass/change"
+        },
+        "message": "Old password does not match",
+        "data": null,
+        "trace": {
+            "error": "Error: Old password does not match\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\password.controller.ts:38:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\password.controller.ts:5:58)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T13:44:02.176Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/pass/change"
+        },
+        "message": "Password updated successfully",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "message": "CONTROLLER_ERROR",
+    "timestamp": "2025-10-15T13:44:30.930Z",
+    "meta": {
+        "success": false,
+        "statusCode": 400,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "POST",
+            "url": "/api/v1/pass/change"
+        },
+        "message": "Old password does not match",
+        "data": null,
+        "trace": {
+            "error": "Error: Old password does not match\n    at C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\password.controller.ts:38:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Prince\\Desktop\\TS-Backend-Production-Setup\\src\\app\\controller\\password.controller.ts:5:58)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-15T13:45:29.839Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-15T13:45:29.843Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-15T13:45:29.844Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-15T13:47:11.077Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-15T13:47:11.081Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-15T13:47:11.081Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-15T13:47:49.007Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-15T13:47:49.011Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-15T13:47:49.012Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-15T13:49:12.457Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-15T13:49:12.461Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-15T13:49:12.462Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-15T13:50:11.657Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-15T13:50:11.661Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-15T13:50:11.662Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-15T13:50:18.471Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-15T13:50:18.476Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-15T13:50:18.477Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
