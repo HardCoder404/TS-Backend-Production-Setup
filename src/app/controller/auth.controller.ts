@@ -185,3 +185,128 @@ export const LogoutUser = async (refreshToken: string): Promise<ApiResponse> => 
         }
     }
 }
+
+// Generate Access Token
+export const GenerateNewAccessToken = async (refreshToken: string): Promise<ApiResponse> => {
+    try {
+        if (!refreshToken) {
+            return {
+                success: false,
+                statusCode: 401,
+                message: responseMessage.NOT_FOUND('Refresh token')
+            }
+        }
+
+        const validateRefreshToken = await RefreshToken.findOne({ refreshToken })
+        if (!validateRefreshToken || dayjs().isAfter(dayjs(validateRefreshToken.expiresAt))) {
+            await RefreshToken.deleteOne({ refreshToken })
+            return {
+                success: false,
+                statusCode: 401,
+                message: responseMessage.INVALID('Refresh token')
+            }
+        }
+
+        const user = await User.findById(validateRefreshToken.userId, 'firstName lastName username email isActive')
+        if (!user) {
+            return {
+                success: false,
+                statusCode: 401,
+                message: responseMessage.NOT_FOUND('User')
+            }
+        }
+
+        if (!user.isActive) {
+            throw new ApiError('Login Restricted', 403)
+        }
+
+        const accessToken = GenerateJwtToken(
+            { userId: user.id, name: `${user.firstName} ${user.lastName}` },
+            config.ACCESS_TOKEN.SECRET || 'default',
+            config.ACCESS_TOKEN.EXPIRY || 1
+        )
+
+        return {
+            success: true,
+            statusCode: 200,
+            message: responseMessage.SUCCESS('Access token generated'),
+            data: { docs: { accessToken, refreshToken } }
+        }
+    } catch (error: any) {
+        const errMessage = error instanceof Error ? error.message : responseMessage.INTERNAL_SERVER_ERROR
+        const statusCode = error instanceof ApiError ? error.status : 500
+        return { success: false, statusCode, message: errMessage, error }
+    }
+}
+
+export const RefreshSession = async (refreshToken: string): Promise<ApiResponse<AuthDocs>> => {
+    try {
+        if (!refreshToken) {
+            return {
+                success: false,
+                statusCode: 401,
+                message: responseMessage.NOT_FOUND('Refresh token')
+            }
+        }
+
+        const validateRefreshToken = await RefreshToken.findOne({ refreshToken })
+        if (!validateRefreshToken || dayjs().isAfter(dayjs(validateRefreshToken.expiresAt))) {
+            await RefreshToken.deleteOne({ refreshToken })
+            return {
+                success: false,
+                statusCode: 401,
+                message: responseMessage.INVALID('Refresh token')
+            }
+        }
+
+        const user = await User.findById(validateRefreshToken.userId, 'firstName lastName username email isActive')
+        if (!user) {
+            return {
+                success: false,
+                statusCode: 401,
+                message: responseMessage.NOT_FOUND('User')
+            }
+        }
+
+        if (!user.isActive) {
+            throw new ApiError('Login Restricted', 403)
+        }
+
+        const accessToken = GenerateJwtToken(
+            {
+                userId: user.id,
+                name: `${user.firstName} ${user.lastName}`
+            },
+            config.ACCESS_TOKEN.SECRET || 'default',
+            config.ACCESS_TOKEN.EXPIRY || 1
+        )
+
+        const response: AuthDocs = {
+            user: {
+                id: user.id,
+                username: user.username,
+                firstName: user.firstName,
+                lastName: user.lastName,
+                email: user.email
+            },
+            accessToken,
+            refreshToken
+        }
+
+        return {
+            success: true,
+            statusCode: 200,
+            message: responseMessage.LOGIN,
+            data: { docs: response }
+        }
+    } catch (error: any) {
+        const errMessage = error instanceof Error ? error.message : responseMessage.INTERNAL_SERVER_ERROR
+        const statusCode = error instanceof ApiError ? error.status : 500
+        return {
+            success: false,
+            statusCode,
+            message: errMessage,
+            error
+        }
+    }
+}

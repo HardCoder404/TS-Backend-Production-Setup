@@ -5113,3 +5113,200 @@
         "SERVER_URL": "http://localhost:8080"
     }
 }
+{
+    "level": "INFO",
+    "message": "DATABASE_CONNECTION",
+    "timestamp": "2025-10-15T14:06:16.885Z",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "message": "RATE_LIMITER_INITIALIZED",
+    "timestamp": "2025-10-15T14:06:16.897Z",
+    "meta": {
+        "duration": 60,
+        "points": 10
+    }
+}
+{
+    "level": "INFO",
+    "message": "APPLICATION_STARTED",
+    "timestamp": "2025-10-15T14:06:16.898Z",
+    "meta": {
+        "PORT": "8080",
+        "SERVER_URL": "http://localhost:8080"
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T14:09:12.399Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/api/v1/auth/refresh-token"
+        },
+        "message": "Access token generated successfully",
+        "data": {
+            "docs": {
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJuYW1lIjoiUHJpbmNlIFJhaiIsImlhdCI6MTc2MDUzNzM1MiwiZXhwIjoxNzYwNTM3OTUyfQ.z4ID_1amVmbR6zyZyB-UMfRjfM_a9rBglZNf82KfCZ8",
+                "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJpYXQiOjE3NjA1MzU4MjQsImV4cCI6MTc2MDU3OTAyNH0.pJ22hfeS0ar-Bvm9tfAV77BcHzX3QsXZPNq9tlEX2n4"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T14:09:27.641Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/api/v1/auth/refresh-session"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "username": "prince1024b",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJuYW1lIjoiUHJpbmNlIFJhaiIsImlhdCI6MTc2MDUzNzM2NywiZXhwIjoxNzYwNTM3OTY3fQ.SJ2swT2bPulSOtZ8nMvubmyFsmPP58cAHVUFe3aCEmw"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T14:09:30.795Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/api/v1/auth/refresh-session"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "username": "prince1024b",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJuYW1lIjoiUHJpbmNlIFJhaiIsImlhdCI6MTc2MDUzNzM3MCwiZXhwIjoxNzYwNTM3OTcwfQ.goD4-0qwDlq309YijEDXRTVHzSGjPLAWFAlHdsG3BkA"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T14:09:31.759Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/api/v1/auth/refresh-session"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "username": "prince1024b",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJuYW1lIjoiUHJpbmNlIFJhaiIsImlhdCI6MTc2MDUzNzM3MSwiZXhwIjoxNzYwNTM3OTcxfQ.3qdAn_C-Pu4sKlifwTdX_0GhpQIhXZXXPwTyiFBH-2Q"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T14:10:37.950Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/api/v1/auth/refresh-token"
+        },
+        "message": "Access token generated successfully",
+        "data": {
+            "docs": {
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJuYW1lIjoiUHJpbmNlIFJhaiIsImlhdCI6MTc2MDUzNzQzNywiZXhwIjoxNzYwNTM4MDM3fQ.jL5ShHq5y2WVWbgpWevVEgmVrpABOBNTGBeGLXa4QC4",
+                "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJpYXQiOjE3NjA1MzU4MjQsImV4cCI6MTc2MDU3OTAyNH0.pJ22hfeS0ar-Bvm9tfAV77BcHzX3QsXZPNq9tlEX2n4"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T14:10:51.298Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/api/v1/auth/refresh-session"
+        },
+        "message": "Login successful",
+        "data": {
+            "docs": {
+                "user": {
+                    "id": "68ee6d598344bbd5517a9656",
+                    "username": "prince1024b",
+                    "firstName": "Prince",
+                    "lastName": "Raj",
+                    "email": "abc@gmail.com"
+                },
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJuYW1lIjoiUHJpbmNlIFJhaiIsImlhdCI6MTc2MDUzNzQ1MSwiZXhwIjoxNzYwNTM4MDUxfQ.-dSCCLGcBYtJAgSycOR-zikItIvfThXCqQ6IK05aWFM"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "message": "CONTROLLER_RESPONSE",
+    "timestamp": "2025-10-15T14:10:54.393Z",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/api/v1/auth/refresh-token"
+        },
+        "message": "Access token generated successfully",
+        "data": {
+            "docs": {
+                "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJuYW1lIjoiUHJpbmNlIFJhaiIsImlhdCI6MTc2MDUzNzQ1NCwiZXhwIjoxNzYwNTM4MDU0fQ.qX8CXBK5mAjwFbuYEo_8QuF6n-2px881BjvHnsX71yM",
+                "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OGVlNmQ1OTgzNDRiYmQ1NTE3YTk2NTYiLCJpYXQiOjE3NjA1MzU4MjQsImV4cCI6MTc2MDU3OTAyNH0.pJ22hfeS0ar-Bvm9tfAV77BcHzX3QsXZPNq9tlEX2n4"
+            }
+        }
+    }
+}

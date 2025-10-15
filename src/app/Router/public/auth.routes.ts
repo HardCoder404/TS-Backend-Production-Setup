@@ -11,7 +11,7 @@ import {
 } from '../../../libs/util/helper/cookiesAuth'
 import httpResponse from '../../../libs/util/helper/httpResponse'
 import { AuthResponse } from '../../../libs/util/types/auth/AuthResponse'
-import { LogoutUser, UserLogin, UserRegister } from '../../controller/auth.controller'
+import { GenerateNewAccessToken, LogoutUser, RefreshSession, UserLogin, UserRegister } from '../../controller/auth.controller'
 import { UserRegisterDTO } from '../../../libs/util/DTO/auth/UserRegisterDTO'
 
 const router = Router()
@@ -101,6 +101,69 @@ router.put('/logout', async (req: Request, res: Response, next: NextFunction) =>
         clearAccessTokenCookies(res)
         clearRefreshTokenCookies(res)
         return httpResponse(req, res, statusCode, message, data)
+    } catch (err) {
+        return httpError(next, err, req, 500)
+    }
+})
+
+// Route: /api/v1/auth/refresh-token
+// Method: GET
+// Desc: Generate new access token from refresh token
+// Access: Public
+router.get('/refresh-token', async (req: Request, res: Response, next: NextFunction) => {
+    try {
+        const { cookies } = req
+        //console.log('Cookies:', cookies);
+        const { refreshToken } = cookies as { refreshToken: string | undefined }
+        //console.log('Refresh Token:', refreshToken);
+        if (!refreshToken) {
+            return httpError(next, new Error('Session expired'), req, 401)
+        }
+        const { success, statusCode, message, error, data } = await GenerateNewAccessToken(refreshToken)
+        if (!success) {
+            clearAccessTokenCookies(res)
+            clearRefreshTokenCookies(res)
+            return httpError(next, error, req, statusCode)
+        }
+
+        const accessToken = (data?.docs as { accessToken: string }).accessToken
+        generateAccessTokenCookie(res, accessToken)
+
+        return httpResponse(req, res, statusCode, message, data)
+    } catch (err) {
+        return httpError(next, err, req, 500)
+    }
+})
+
+// Route: /api/v1/auth/refresh-session
+// Method: GET
+// Desc: Generate new access token from refresh token
+// Access: Public
+router.get('/refresh-session', async (req: Request, res: Response, next: NextFunction) => {
+    try {
+        const { cookies } = req
+        const { refreshToken } = cookies as { refreshToken: string | undefined }
+        if (!refreshToken) {
+            return httpError(next, new Error('Refresh token not found'), req, 401)
+        }
+        const { success, statusCode, message, error, data } = await RefreshSession(refreshToken)
+        if (!success) {
+            clearAccessTokenCookies(res)
+            clearRefreshTokenCookies(res)
+            return httpError(next, error, req, statusCode)
+        }
+
+        const accessToken = (data?.docs as { accessToken: string }).accessToken
+        generateAccessTokenCookie(res, accessToken)
+
+        const dataResponse = {
+            docs: {
+                user: data?.docs.user,
+                accessToken: (data?.docs as { accessToken: string }).accessToken
+            }
+        } as AuthResponse
+
+        return httpResponse(req, res, statusCode, message, dataResponse)
     } catch (err) {
         return httpError(next, err, req, 500)
     }
