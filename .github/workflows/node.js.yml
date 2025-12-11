@@ -27,4 +27,13 @@ jobs:
     - run: |
         touch .env
         echo "${{ secrets.TS_PRODUCTION_SETUP_ENV }}" > .env
-    - run: pm2 restart my-backend
+    - name: Copy build to server folder
+      run: |
+        rsync -av --delete ./ /var/www/my-backend
+
+    - name: Restart PM2
+      run: |
+        cd /var/www/my-backend
+        pm2 delete my-backend || true
+        pm2 start dist/server.js --name my-backend
+        pm2 save
