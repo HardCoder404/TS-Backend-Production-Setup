@@ -88,6 +88,18 @@ Start the development server with hot reload:
 npm run dev
 ```
 
+### Testing URL
+```bash
+/api/v1/test
+
+#output:
+{
+  "success": true,
+  "message": "Backend is working!"
+}
+```
+
+
 ### Production Mode
 Build and run the production server:
 
