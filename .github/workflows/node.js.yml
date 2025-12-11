@@ -26,5 +26,5 @@ jobs:
     - run: npm run dist --if-present
     - run: |
         touch .env
-        echo "{{ secrets.TS_PRODUCTION_SETUP_ENV }}" > .env
+        echo "${{ secrets.TS_PRODUCTION_SETUP_ENV }}" > .env
     - run: pm2 restart my-backend
